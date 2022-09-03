@@ -1,0 +1,69 @@
+
+
+.flex-container{
+    display: flex;
+    height: 800px;
+
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* when flex direction: is row; than align items helps you to arrange the thing in vertical(top-bottom), and justify-content helps you to arrange it in horizontal(left ot right) */
+
+    /* when flex direction:  is column; than align items and justify content will reverse
+       justify-content helps you to arrange the thing in vertical(top-bottom)
+       align items  helps you to arrange it in horizontal(left ot right)
+
+    */
+
+    /* arrange in vertical direction - top to bottom */
+      /* align-items: strech; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+
+    /* arrange in horizontal direction - left to right */
+        /* justify-content: flex-start; */
+        /* justify-content: center; */
+        /* justify-content: flex-end; */
+
+    /* arrange spaces */
+      /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+    
+
+}
+
+
+
+.item1,.item2,.item3{
+    background-color: tomato;
+    padding: 10px;
+    border:2px solid greenyellow;
+    width: 20%;
+}
+
+
+.item1{
+   /* order: 3; */
+   /* flex: 1; */
+}
+
+.item2{
+    /* order: 1; */
+    /* flex: 2; */
+    /* align-self: center; */
+}
+
+.item3{
+    /* order: 2; */
+    /* flex: 2; */
+    /* align-self: flex-end; */
+}
+
+
+
+
